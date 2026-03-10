@@ -1,7 +1,8 @@
 import axios from "axios";
 
+// Change this to your Render backend link
 const API = axios.create({
-  baseURL: "http://localhost:5000"
+  baseURL: "https://milking-tracker-ui8g.onrender.com"
 });
 
 export const saveSession = (data) => API.post("/sessions", data);
