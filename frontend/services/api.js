@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// Change this to your Render backend link
+// Use your Render backend URL here
 const API = axios.create({
   baseURL: "https://milking-tracker-ui8g.onrender.com"
 });
